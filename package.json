@@ -18,4 +18,16 @@
   },
   "homepage": "https://github.com/Mylehna/mariamboudad_3_23022021#readme"
 }
-
+{
+  "name": "joeblow",
+  "version": "1.0.0",
+  "description": "Joe Blow's web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss:./public/css/style.css -w --style compressed",
+    "prefix": "postcss ./public/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  }
+  
