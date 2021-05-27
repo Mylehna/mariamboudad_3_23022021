@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 32 |         color: $colour-accent;
- *    |                ^^^^^^^^^^^^^^
+ * 25 |     padding: $grid-gutter;
+ *    |              ^^^^^^^^^^^^
  *    '
- *   sass\utils\_mixins.scss 32:16      btn()
+ *   sass\utils\_mixins.scss 25:14      btn()
  *   sass\components\_buttons.scss 2:5  @import
  *   sass\main.scss 9:9                 root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 32 \2502          color: $colour-accent;\a    \2502                 ^^^^^^^^^^^^^^\a    \2575 \a   sass\\utils\\_mixins.scss 32:16      btn()\a   sass\\components\\_buttons.scss 2:5  @import\a   sass\\main.scss 9:9                 root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 25 \2502      padding: $grid-gutter;\a    \2502               ^^^^^^^^^^^^\a    \2575 \a   sass\\utils\\_mixins.scss 25:14      btn()\a   sass\\components\\_buttons.scss 2:5  @import\a   sass\\main.scss 9:9                 root stylesheet";
 }
