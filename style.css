@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.reserve {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.reserve_hgroup h1 {
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
