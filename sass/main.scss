@@ -1,19 +1,25 @@
-@import "./utils/variables";
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/extensions";
+.reserve{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 25px;
+    }
+    .reserve_hgroup h1{
+        font-size: 25px;
+        margin: 0;
+     }
+.section_contain{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-direction: 15px;
 
-@import "./base/base";
-@import "./base/typography";
+        .section_button{
+            background-color: #f2f2f2;
+            text-decoration: none;
+            padding: 10px; 
+            margin-bottom: 15px;
+        }
 
-@import "./components/buttons";
+}
 
-@import "./layout/header";
-@import "./layout/nav";
-@import "./layout/container";
-@import "./layout/form";
-
-
-@import "./pages/work";
-@import "./pages/about";
-@import "./pages/project";
+     
