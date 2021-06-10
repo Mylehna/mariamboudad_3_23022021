@@ -1,15 +1,18 @@
-.header {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-        header a{
-            display: flex;
-            justify-content: center;
-            }
-            .header-image{
-            margin-top: 15px;
-            height: 30px;
-        }
+.header{
+    box-sizing: border-box;
+      width: 100%;
+      
+      display:grid;
+      grid-template-rows: 100%;
+      grid-template-columns:3fr 4fr 3fr;
+  
+      justify-content: start;
+      align-items: center;
+  }
+        
+.header-image{
+margin-top: 15px;
+height: 30px;
 }
 
 .menu_header_logo{
