@@ -22,12 +22,12 @@
   padding-top: 25px;
 }
 
-.reserve_hgroup h1 {
+.reserve__hgroup h1 {
   font-size: 25px;
   margin: 0;
 }
 
-.section_contain {
+.section__contain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,19 +37,19 @@
   margin-bottom: 30px;
 }
 
-.section_contain .section_button {
+.section__contain .section__button {
   background-color: #f2f2f2;
   text-decoration: none;
   padding: 10px;
   margin-bottom: 15px;
 }
 
-.section_icons {
+.section__icons {
   font-size: 20px;
   padding: 5px;
 }
 
-.section_texte {
+.section__texte {
   color: black;
   font-weight: bold;
   padding: 10px;
