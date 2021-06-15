@@ -1,19 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.body {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .header {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
-  -ms-grid-columns: 3fr 4fr 3fr;
-      grid-template-columns: 3fr 4fr 3fr;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-rows: 100%;
+  grid-template-columns: 3fr 4fr 3fr;
+  justify-content: start;
+  align-items: center;
 }
 
 .reserve {
@@ -25,15 +30,13 @@
 .reserve__hgroup h1 {
   font-size: 25px;
   margin: 0;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .section__contain {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -54,4 +57,46 @@
   font-weight: bold;
   padding: 10px;
 }
-/*# sourceMappingURL=main.css.map */
+
+.section__button {
+  padding: 1rem 1,25rem;
+  margin: 1,25rem 0;
+}
+
+.button {
+  border: none;
+  border-radius: 2.5rem;
+}
+
+/* 
+.header{
+    box-sizing: border-box;
+      width: 100%;
+      
+      display:grid;
+      grid-template-rows: 100%;
+      grid-template-columns:3fr 4fr 3fr;
+  
+      justify-content: start;
+      align-items: center;
+  }
+       */
+.header-image {
+  margin-top: 15px;
+  height: 30px;
+}
+
+.menu__header__logo {
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  display: flex;
+}
+
+/* .container {
+    margin: $layout-margin;
+    @include border($colour-accent);
+} */
+body {
+  background-color: aliceblue;
+}
