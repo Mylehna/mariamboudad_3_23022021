@@ -97,6 +97,3 @@
     margin: $layout-margin;
     @include border($colour-accent);
 } */
-body {
-  background-color: aliceblue;
-}
