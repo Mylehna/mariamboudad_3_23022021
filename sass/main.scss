@@ -29,10 +29,11 @@
 }
 
 .header {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
 }
 
 .header__logo {
