@@ -28,17 +28,17 @@ img {
   height: 30px;
 }
 
-  .search__location {
-    display: flex;
-    background: #d5dbdb;
-    height: 65px;
-    justify-content: center;
-    padding-top: 15px;
-    box-shadow: inset 0px 5px 5px 0px #cbcaca;
+.search__location {
+  display: flex;
+  background: #d5dbdb;
+  height: 65px;
+  justify-content: center;
+  padding-top: 15px;
+  box-shadow: inset 0px 5px 5px 0px #cbcaca;
 }
 
-  .input-field {
-    padding-left: 15px;
+.input-field {
+  padding-left: 15px;
 }
 
   input {
@@ -95,7 +95,6 @@ h2 {
   margin: auto;
   max-width: 1200px;
 }
-
 
 .flex_restau {
   display: flex;
@@ -275,164 +274,179 @@ footer{
   margin: auto;
   }
 
-  .footer__logo{
-    filter: invert(1);
-    padding-left: 17px;
+.footer__logo{
+  filter: invert(1);
+  padding-left: 17px;
 }
+
 .imgl {
-        font-family: shrikland;
-        margin-top: 10px;
+  font-family: shrikland;
+  margin-top: 10px;
+  }
+
+.footer__link__value{
+  list-style: none;
+  }
+
+  li {
+    margin: 5px;
+    margin-left: -23px;
     }
 
-    .footer__link__value{
-      list-style: none;
+.a{
+  text-decoration: none;
+  color: white;
   }
-li {
-              margin: 5px;
-              margin-left: -23px;
-          }
-
-          .a{
-            text-decoration: none;
-            color: white;
-        }
-        
-        @media all and (min-width: 768px){
-        
-            .section__contain {
-                display: flex;
-                flex-direction: row;
-                padding: 0px;
-            }
-          }
-            .section__button {
-                margin: 12px;
-            }
-        
-            .card {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-              }
-                @media all and (min-width: 480px){
-                  .imgr{
-                      height: 270px;
-                  }
-              }
       
-                .cart__img {
-                        width: 650px;
-                    }
-        
-            .menu__plats{
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
-                justify-content: space-around;
-            }
+  @media all and (min-width: 768px){
 
-            @media all and (min-width: 480px){
-            .imgr{
-                  height: 270px;
-              }
-          }
-        
-          @media all and (min-width: 768px){
+.section__contain {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  }
+    }
 
-            footer{
-                background: #333;
-                text-align: center;
-                }
-                    .footer__logo{
-                        filter: invert(1);
-                    }
-                            .footer__link__value{
-                                list-style: none;
-                            }
-            }
-
-            /*css menu*/
-          .header__logo .menu__header__logo{
-              display: flex;
-              justify-content: space-around;
-              align-items: center;
-              background: white;
-              padding-top: 10px;
-          }
-          
-          .header__back__icon{
-              position: absolute;
-              left: 25px;
-              color: #000;
-          }
-          
-          .cover__img{
-              width: 100%;
-              margin: 0;
-          }
-          
-          .imgr{
-              display: flex;
-              width: 100%;
-          }
-          
-          .menuu{
-            background-color: #f2f2f2;
-          }
+.section__button {
+  margin: 12px;
+}
         
-            .menu__summary{
-                display: flex;
-                background-color: #f2f2f2;
-                position: relative;
-                border-radius: 35px 35px 0px 0px;
-                margin-top: -20px;
-                justify-content: space-between;
-            }
-                .menu__title{
-                    margin-left: 15px;
-                    font-family: shrikland;
-                    font-size: 25px;
-                }
-                    .like.like-menu{
-                        top: 26px;
-                        position: relative;
-                        right: 15px;
-                    }
-                        .sub__title::after{
-                            content: '';
-                            border-bottom: 2px solid #99e2d0;
-                            display: block;
-                            padding-top: 3px;
-                            width: 40px;
-                        }
-                            .menu__text{
-                                background-color: white;
-                                border-radius: 10px 10px 10px 10px;
-                                display: flex;
-                                justify-content: space-between;
-                                cursor: pointer;
-                                margin: 10px 0;
-                                height: 63px;
-                                overflow: hidden;
-                            }
-                                  .menu__plats{
-                                    padding: 10px;
-                                    animation-name: menu;
-                                    animation-duration: 5s;
-                                    animation-iteration-count: infinite;
-                                    animation: pop-up 1.8s;
-                                }
-                                    .menu__title__regroup{
-                                        padding: 10px;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                        white-space: nowrap;
-                                        flex: 1;
-                                    }
-                                        .prod{
-                                            margin: 0;
-                                            margin-bottom: 5px;
-                                            font-weight: bold;
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+@media all and (min-width: 480px){
+
+.imgr{
+  height: 270px;
+}
+ }
+      
+.cart__img {
+  width: 650px;
+}
+        
+.menu__plats{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 480px){
+
+.imgr{
+  height: 270px;
+}
+  }
+        
+@media all and (min-width: 768px){
+
+footer{
+  background: #333;
+  text-align: center;
+}
+
+.footer__logo{
+  filter: invert(1);
+}
+
+.footer__link__value{
+  list-style: none;
+}
+  }
+
+/*css menu*/
+.header__logo .menu__header__logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  padding-top: 10px;
+}
+          
+.header__back__icon{
+  position: absolute;
+  left: 25px;
+  color: #000;
+}
+          
+.cover__img{
+  width: 100%;
+  margin: 0;
+}
+          
+.imgr{
+  display: flex;
+  width: 100%;
+}
+          
+.menuu{
+  background-color: #f2f2f2;
+}
+        
+.menu__summary{
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  border-radius: 35px 35px 0px 0px;
+  margin-top: -20px;
+  justify-content: space-between;
+}
+
+.menu__title{
+  margin-left: 15px;
+  font-family: shrikland;
+  font-size: 25px;
+}
+
+.like.like-menu{
+  top: 26px;
+  position: relative;
+  right: 15px;
+}
+
+.sub__title::after{
+  border-bottom: 2px solid #99e2d0;
+  display: block;
+  padding-top: 3px;
+  width: 40px;
+}
+
+.menu__text{
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 63px;
+  overflow: hidden;
+}
+
+.menu__plats{
+  padding: 10px;
+  animation-name: menu;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation: pop-up 1.8s;
+}
+
+.menu__title__regroup{
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.prod{
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
                                             font-size: 16px;
                                             overflow: hidden;
                                             text-overflow: ellipsis;
