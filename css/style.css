@@ -185,6 +185,15 @@
   height : 150px;
   min-width : 100%;
   }
+
+  .cartimg {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    height: 150px;
+    min-width: 100%;
+    width: 300px;
+}
+
   .store__card {
   margin-top : 15px;
   background : white;
@@ -270,7 +279,7 @@
   }
   }
   .cart__img {
-  width : 650px;
+  width : 300px;
   }
   .menu__plats {
   display : flex;
@@ -318,6 +327,7 @@
   .menuu {
   background-color : #f2f2f2;
   }
+
   .menu__summary {
   display : flex;
   background-color : #f2f2f2;
@@ -326,16 +336,19 @@
   margin-top : -20px;
   justify-content : space-between;
   }
+
   .menu__title {
   margin-left : 15px;
   font-family : shrikland;
   font-size : 25px;
   }
+
   .like.like-menu {
   top : 26px;
   position : relative;
   right : 15px;
   }
+  
   .sub__title::after {
   border-bottom : 2px solid #99e2d0;
   display : block;
