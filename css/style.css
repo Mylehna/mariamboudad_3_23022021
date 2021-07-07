@@ -483,13 +483,15 @@
   top : 30%;
   background : #99e2d0;
   }
-  .menu__text:hover .price__container {
+
+.menu__text:hover .price__container {
   animation : checkbox-contain 0.3s ease;
   animation-fill-mode : forwards;
   animation-iteration-count : 1;
   min-width : 50px;
   }
-  .menu__text:hover .checkbox {
+
+.menu__text:hover .checkbox {
   display : block;
   flex : 0 0 15%;
   background : #99e2d0;
@@ -500,11 +502,13 @@
   animation-iteration-count : 1;
   transform-origin : 50% 50%;
   }
-  .menu__text:hover .btn-circle {
+
+.menu__text:hover .btn-circle {
   animation-name : icon;
   animation-duration : 0.5s;
   }
-  @keyframes icon {
+
+@keyframes icon {
   0% {
   transform : rotate(0deg);
   }
