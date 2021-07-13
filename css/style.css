@@ -137,7 +137,14 @@
   align-items : center;
   padding-top : 10px;
   display : flex;
+  width: 15rem;
   }
+
+  a {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
   .fas.fa-heart {
   position : absolute;
   right : 0;
@@ -145,10 +152,12 @@
   transition : opacity 500ms;
   }
   .far.fa-heart {
-  position : absolute;
-  right : 0;
-  top : -30px;
-  color : black;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color : black;
+    font-size: 25px;
   }
   .heart {
   position : relative;
@@ -160,10 +169,10 @@
   transition : opacity 500ms;
   }
   .far.fa-heart:hover {
-  background : linear-gradient(#ff79da, #9356dc);
+  background-image : linear-gradient(#ff79da, #9356dc, 190deg);
   }
   .fas.fa-heart:hover {
-  background : linear-gradient(#ff79da, #9356dc);
+  background-image : linear-gradient(#ff79da, #9356dc);
   }
   .subtitle {
   font-size : 15px;
@@ -303,6 +312,7 @@
   .footer__link__value {
   list-style : none;
   }
+
   }
   .header__logo .menu__header__logo {
   display : flex;
@@ -323,6 +333,7 @@
   .imgr {
   display : flex;
   width : 100%;
+  height: 250px;
   }
   .menuu {
   background-color : #f2f2f2;
@@ -338,9 +349,9 @@
   }
 
   .menu__title {
-  margin-left : 15px;
-  font-family : shrikland;
-  font-size : 25px;
+    font-family: "Shrikhand",cursive;
+    font-size: 1.7rem;
+    font-weight: 300
   }
 
   .like.like-menu {
@@ -483,6 +494,7 @@
   transform-origin : 50% bottom;
   opacity : 1;
   }
+  
   }
   .checkbox {
   display : none;
