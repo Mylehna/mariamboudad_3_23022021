@@ -152,6 +152,7 @@
   transition : opacity 500ms;
   background-clip: text;
   }
+
   .far.fa-heart {
     display: inline-block;
     font-style: normal;
@@ -371,6 +372,7 @@
   padding-top : 3px;
   width : 40px;
   }
+  
   .menu__text {
   background-color : white;
   border-radius : 10px 10px 10px 10px;
