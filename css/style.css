@@ -63,6 +63,8 @@
   font-size : 16px;
   font-weight : 300;
   font-family : "roboto", sans-serif;
+  margin: 1rem;
+  font-weight: 700;
   }
   .reserve__btn-1 {
   background-image: linear-gradient(170deg, #ff79da, #9356dc);
@@ -100,6 +102,7 @@
   font-size : 20px;
   padding : 10px;
   }
+
   .section__button {
   text-decoration : none;
   padding : 10px;
@@ -109,6 +112,7 @@
   background-color : #f2f2f2;
   height : 50px;
   width : 100%;
+  margin : 12px;
   }
   .section__rond {
   background : #9356dc;
@@ -163,23 +167,29 @@
     position: absolute;
     right: 0;
     top: -30px; 
+    transition : opacity 500ms;
     background-clip: text;
   }
   .heart {
   position : relative;
   }
+
   .fa-heart {
-  padding-right : 10px;
-  color : transparent;
-  font-size : 20px;
-  transition : opacity 500ms;
-  }
+    padding-right : 10px;
+    color : transparent;
+    font-size : 20px;
+    transition : opacity 500ms;
+    background-clip: text;
+    }
+
   .far.fa-heart:hover {
   background-image : linear-gradient(#ff79da, #9356dc, 190deg);
   }
+
   .fas.fa-heart:hover {
-  background-image : linear-gradient(#ff79da, #9356dc);
-  }
+    background-image : linear-gradient(#ff79da, #9356dc);
+    }
+  
   .subtitle {
   font-size : 15px;
   color : black;
@@ -397,6 +407,7 @@
   white-space : nowrap;
   flex : 1;
   }
+
   .prod {
   margin : 0;
   margin-bottom : 5px;
@@ -418,6 +429,14 @@
   font-size : 17px;
   font-weight : 200;
   }
+
+  .sub__title ::after{
+  border-bottom: 2px solid #99e2d0;
+  padding-top: 3px;
+  width: 40px;
+  display: block;
+}
+
   .price__container {
   text-align : end;
   display : flex;
