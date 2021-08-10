@@ -1,4 +1,4 @@
-.body {
+body {
   font-family : "roboto", sans-serif;
   font-size : 16px;
   font-weight : 300;
@@ -22,8 +22,11 @@
   display : flex;
   justify-content : center;
   }
-  img {
-  height : 30px;
+  
+  .img {
+    height: 250px;
+    width: 100vw;
+    margin: -3rem auto;
   }
   .search__location {
   display : flex;
@@ -290,9 +293,7 @@
   }
   .card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .card > a {
