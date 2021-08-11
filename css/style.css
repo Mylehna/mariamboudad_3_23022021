@@ -24,9 +24,9 @@ body {
   }
   
   .img {
+    display: flex;
+    width: 100%;
     height: 250px;
-    width: 100vw;
-    margin: -3rem auto;
   }
   .search__location {
   display : flex;
@@ -87,7 +87,8 @@ body {
   .container {
   width : 100%;
   margin : auto;
-  max-width : 1200px;
+  max-width : 1000px;
+  padding: 1.5rem;
   }
   .flex_restau {
   display : flex;
@@ -230,6 +231,18 @@ body {
   .card {
   margin-bottom : 25px;
   }
+
+  .card {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card > a {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
   .store__title {
   padding-top : 25px;
   font-weight : bold;
@@ -277,6 +290,7 @@ body {
   margin : 5px;
   margin-left : -23px;
   }
+  
   .a {
   text-decoration : none;
   color : white;
@@ -301,8 +315,8 @@ body {
     display: block;
     object-fit: cover;
   }
-
-  @media all and (min-width: 781px) and (max-width: 1280px) {
+  
+  @media all and (min-width: 1200px) and (max-width: 768px) {
   .imgr {
   height : 270px;
   }
