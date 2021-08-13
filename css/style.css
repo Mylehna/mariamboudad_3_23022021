@@ -276,6 +276,7 @@ input {
 
 img.img {
   width: 100%;
+  height: 250px;
 }
 
 .menuu {
@@ -702,7 +703,7 @@ button.reserve__btn-1.btn-2 {
     transform: translate(1px, 0);
   }
 }
-
+                       
 .ldw {
   background: white;
   position: fixed;
